@@ -6,7 +6,7 @@ import re
 def main():
 	try:
 		# Make sure the program is called with exactly one argument.
-		# sys.argv is the number of arguments + 1 because
+		# sys.argv is the number of args + 1 because
 		# the program's name is in sys.argv[0]
 		if len(sys.argv) != 2:
 			print "invalid arguments (%d), usage: %s [string]" % (len(sys.argv), sys.argv[0])
