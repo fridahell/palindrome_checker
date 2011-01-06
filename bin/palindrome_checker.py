@@ -7,7 +7,7 @@ def main():
 	try:
 		# If called without arguments, get string on standard input.
 		if len(sys.argv) == 1:
-			# Set string variable to first command line argument
+			# Read string from standard input
 			string = str(raw_input("Enter string to check: "))
 		# Otherwise, make sure the program is called with exactly one argument.
 		# sys.argv is the number of args + 1 because
