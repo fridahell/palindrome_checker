@@ -5,7 +5,7 @@ import re
 
 def main():
 	try:
-		# If called without arguments, get string on standard input.
+		# If called without arguments, get string from standard input.
 		if len(sys.argv) == 1:
 			# Read string from standard input
 			string = str(raw_input("Enter string to check: "))
