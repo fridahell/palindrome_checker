@@ -1,0 +1,32 @@
+NAME
+  	is_palindrome - check if string is a palindrome
+
+SYNOPSIS
+  	is_palindrome [string]
+
+DESCRIPTION
+  	Check if string is a palindrome.
+  	Ignored characters: blanks, punctuation characters and digits.
+  	The check is not case sensitive.
+
+AUTHOR
+  	Frida Hellden <frida@austinprkonsult.se>
+
+LICENSE
+  	http://www.gnu.org/licenses/gpl.html
+
+EXAMPLES
+  	Check if the string 'Sirap i Paris!' is a palindrome
+  	./is_palindrome 'Sirap, i Paris!'
+  	yes
+  	./is_palindrome 'Retur och Retur'
+  	no
+
+DIAGNOSTICS
+  	The is_palindrome utility exits
+  	0 on success,
+  	1 if called with invalid number of arguments.
+  	2 if an unknown error happens
+
+REFERENCES
+  	http://docs.python.org/howto/regex.html
