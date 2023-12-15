@@ -1,0 +1,11 @@
+Source: palindrome-checker
+Section: python
+Priority: optional
+Maintainer: ashish.kyasari@walchandsangli.ac.in
+Build-Depends: debhelper (>= 9)
+
+Package: palindrome-checker
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Check if a string is a palindrome
+ This package provides a Python script to check if a given string is a palindrome.
